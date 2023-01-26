@@ -8,8 +8,8 @@ const url = "https://public.tableau.com/views/HospitalPatientSafetyIndicators/PS
 const vizContainer = document.getElementById('vizContainer');
 const options = {
     hideTabs: true,
-    height: 1000,
-    width: 1150,
+    height: 1500,
+    width: 1350,
     onFirstInteraction: function() {
         workbook = viz.getWorkbook();
         activeSheet = workbook.getActiveSheet();
